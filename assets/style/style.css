@@ -1,0 +1,753 @@
+@import url(./font.css);
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background-color: #1B1B1B;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo-films-serials{
+    display: flex;
+}
+.logo-films-serials ul{
+    display: flex;
+    align-items: center;
+    font-family: Golos-Text_Regular;
+}
+.logo-films-serials ul li{
+    list-style: none;
+    margin-right: 15px;
+    
+}
+.logo-films-serials ul li a{
+    color: white;
+    font-family: Golos-Text_Regular;
+
+}
+.search-myaccount{
+    display: flex;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search a{
+    color: white;
+    margin-left: 6px;
+    font-family: Golos-Text_Regular;
+    margin-right: 20px;
+}
+.my-buy{
+    display: flex;
+    align-items: center;
+}
+.my-buy a{
+    color: white;
+    margin-left: 6px;
+    font-family: Golos-Text_Regular;
+    margin-right: 20px;
+}
+.my-account{
+    display: flex;
+    align-items: center;
+}
+.my-account a{
+    color: white;
+    margin-left: 6px;
+    font-family: Golos-Text_Regular;
+    margin-right: 20px;
+}
+.neznakomets{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.neznakomets h1{
+    padding-top: 200px;
+    font-family: Golos-Text_Bold;
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;    
+}
+#text-sofi {
+    color: white;
+    font-family: Golos-Text_Regular;
+    padding-left: 50px;
+}
+.characteristic{
+    display: flex;
+    padding-left: 56px;
+    align-items: center;
+
+}
+.characteristic p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;    
+    margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#bold-text{
+    color: white;
+    font-family: Golos-Text_DemiBold;
+}
+.buttons{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+.buttons a{
+    color: white;
+    font-family: Golos-Text_Regular;
+    margin-right: 15px;
+}
+.buttons a:nth-child(1){
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    padding: 13px;
+    border-radius: 8px;
+}
+.buttons a:nth-child(2){
+    background: linear-gradient(to right, #0A1726, #19202A);
+    padding: 13px;
+    border-radius: 8px;
+}
+.buttons a:nth-child(3){
+    background: linear-gradient(to right, #0A1726, #19202A);
+    padding: 13px;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.recommendation h2{
+    color: white;
+    font-family: Golos-Text_Bold;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.blocks-recom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.blocks-recom .block-recommendation img{
+    border-radius: 6px;
+}
+.blocks-recom .block-recommendation h4{
+    color: white;
+    font-family: Golos-Text_DemiBold;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.blocks-recom .block-recommendation p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.cosmo-podborka{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.cosmo-podborka h2{
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding-top: 105px;
+    padding-left: 70px;
+    font-family: Golos-Text_Bold;
+    font-size: 48px;
+}
+.cosmo-podborka p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;
+    margin: 0;
+    padding-left: 70px;
+    padding-top: 20px;
+}.cosmo-podborka a{
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: Golos-Text_Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+}
+.knopka{
+    padding-bottom: 150px;
+}
+
+.all-open{
+    margin-top: 100px;
+}
+.first-open{
+    display: flex;
+    justify-content: space-between;
+}
+#photo-open{
+    border-radius: 10px;
+    width: 52%;
+}
+.open{
+    background: linear-gradient(to right, #ff512f, #f09819);
+    border-radius: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open p{
+
+    color: white;
+    font-family: Golos-Text_Bold;
+    font-size: 12px;
+}
+.first-open-text h2{
+    color: white;
+    font-family: Golos-Text_Bold;
+    font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.buttons-open a{
+    color: white;
+    font-family: Golos-Text_Regular;
+    margin-right: 15px;
+}
+.buttons-open a:nth-child(1){
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+.buttons-open a:nth-child(2){
+    background: linear-gradient(to right, #0A1726, #19202A);
+    padding: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+.buttons-open a:nth-child(3){
+    background: linear-gradient(to right, #0A1726, #19202A);
+    padding: 13px;
+    border-radius: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.open-characteristic{
+    display: flex;
+    align-items: center;
+
+}
+.open-characteristic p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;    
+    margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+#drama-text{
+    color: white;
+    font-family: Golos-Text_Regular;
+
+}
+.first-open-text h5{
+    color: white;
+    font-family: Golos-Text_Bold;
+    font-size: 48px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.open-second{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.second-text{
+    width: 50%;
+}
+.second-text .details{
+    display: flex;
+}
+.details a{
+    color: #979797;
+    font-family: Golos-Text_Bold;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.second-text p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;    
+    width: 100%;
+}
+.second-photo{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 60%;
+
+}
+.second-photo img{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 48%;
+}
+.about-us{
+    background-color: #242424;
+}
+.all-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-block-about h2{
+    color: white;
+    font-family: Golos-Text_Bold;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.text-block-about p{
+    font-family: Golos-Text_Regular;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+.millions{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.mil-polz{
+    flex-direction: column;
+}
+.millions h3{
+    color: #0052d4;
+    font-family: Golos-Text_Bold;
+    font-size: 44px;
+    margin: 0;
+}
+.mil-polz p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.films-ser-tis p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.projects p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.prosmotr p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.form-pod h2{
+    color: white;
+    font-size: 48px;
+    font-family: Golos-Text_Bold;
+    margin-bottom: 10px;
+}
+.form-pod p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.forms-podpiska{
+    width: 35%;
+}
+form input{
+    background: none;
+    border: 1px solid #979797;
+    margin-bottom: 15px;
+}
+form label{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;
+    margin-bottom: 4px;
+}
+.name-phone{
+    display: flex;
+    flex-direction: column;
+
+}
+.name-phone input{
+    height: 30px;
+    width: 85%;
+}
+.sogl-obr input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+button{
+    color: white;
+    width: 50%;
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    padding: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: Golos-Text_Regular;
+}
+.stoimost{
+    display: flex;
+    margin-left: 300px;
+}
+.block-stoi{
+    background: linear-gradient(to right, #1C2435, #262F39);
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.all-form{
+    display: flex;
+    margin-bottom: 70px;
+}
+.stoimost p{
+    color: white;
+
+}
+.stoimost h3{
+    color: #0052d4;
+    font-family: Golos-Text_Bold;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.all-fut{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #242424;
+}
+.all-fut p{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;
+
+    margin-right: 10px;
+}
+.text-fut{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;    
+}
+.all-fut a{
+    color: #c5c5c5;
+    font-family: Golos-Text_Regular;
+    text-decoration: underline;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons img{
+    margin-right: 15px;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    } 
+    .navigation .logo-films-serials{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    .navigation .logo-films-serials img{
+        width: 30%;
+    }
+    .navigation .logo-films-serials ul{
+        padding-left: 5px;
+    }
+    .navigation .logo-films-serials ul li{
+        font-size: 12px;
+    }
+    .search-myaccount{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .search-myaccount a{
+        font-size: 10px;
+    }
+    .search-myaccount img{
+        width: 30%;
+    }
+    .neznakomets h1{
+        font-size: 44px;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .characteristic{
+        padding-left: 22px;
+    }
+    .characteristic p{
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    #text-sofi{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .buttons{
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .buttons a{
+        padding: 10px;
+        font-size: 12px;
+        font-family: Golos-Text_DemiBold;
+    }
+    .recommendation h2{
+        font-size: 30px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .blocks-recom .block-recommendation img{
+        width: 100%;
+    }
+    .blocks-recom{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .blocks-recom .block-recommendation p{
+        margin-bottom: 20px;
+    }
+    .cosmo-podborka h2{
+        padding-left: 40px;
+        padding-top: 60px;
+        font-size: 38px;
+    }
+    .cosmo-podborka p{
+        padding-left: 40px;
+        font-size: 14px;
+    }
+    .cosmo-podborka a{
+        margin-left: 40px;
+        font-size: 14px;
+        font-family: Golos-Text_DemiBold;
+        width: 40%;
+    }
+    .open{
+        margin-left: 10px;
+        width: 35%;
+        margin-top: 10px;
+        display: flex;
+        
+    }
+    .open p{
+        font-size: 12px;
+    }
+    .all-open .first-open{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #photo-open{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .first-open-text h2{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .open-characteristic{
+        margin-left: 10px;
+    }
+    .open-characteristic p{
+        margin-right: 10px;
+    }
+    #drama-text{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .first-open-text{
+        margin-left: 20px;
+    }
+    .first-open-text h5{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    .buttons-open{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .buttons-open a{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .open-second{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-text{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .second-text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .second-text .details{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .second-photo{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+    }
+    .second-photo img{
+        width: 47%;
+    }
+    .photo-about img{
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .all-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-block-about h2{
+        font-size: 23px;
+
+        text-align: center;
+    }
+    .text-block-about{
+        margin-left: 10px;
+    }
+    .text-block-about p{
+        font-size: 14px;
+    }
+    .millions{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first-sec{
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-sec .films-ser-tis{
+        margin-left: 20px;
+    }
+    .ostal-two{
+        display: flex;
+        justify-content: space-between;
+    }
+    .prosmotr{
+        margin-left: 20px;
+    }
+    .all-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .forms-podpiska{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .stoimost{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .one-two{
+        display: flex;
+        justify-content: center;
+    }
+    .three-four{
+        display: flex;
+        justify-content: center
+    }
+    .block-stoi{
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 70%;
+    }
+    .all-fut p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .all-fut a{
+        font-size: 12px;
+        text-align: center;
+    }
+    .millions h3{
+        font-size: 40px;
+    }
+    .form-pod p{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .form-pod h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}
